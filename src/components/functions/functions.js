@@ -1,3 +1,5 @@
+window.onload = function() {
+
 const wrapper = document.querySelector('.wrapper');
 const loginLink = document.querySelector('.login-link');
 const registerLink = document.querySelector('.register-link');
@@ -19,3 +21,5 @@ btnPopup.addEventListener('click', () => {
 iconClose.addEventListener('click', () => {
     wrapper.classList.remove('active-popup')
 });
+
+};
